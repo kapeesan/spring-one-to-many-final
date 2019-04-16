@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Kapeesan_sms?createDatabaseIfNotExist=true
+    username: root
+    password: 1qaz2wsx@
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create 
+
